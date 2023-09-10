@@ -248,8 +248,9 @@
 
 /*** Donate ***/
 .donate {
-    background: rgba(0, 29, 35, .8);
+    background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8));
 }
+
 
 .btn-group .btn-light:hover,
 .btn-group input[type="radio"]:checked+label {
@@ -445,4 +446,11 @@
 
 .footer .copyright a:hover {
     color: var(--primary);
+}
+
+.gradient{
+    /*font-size: 45px;*/
+    background: linear-gradient(to right, #ff6b08, #eedd44);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
 }
