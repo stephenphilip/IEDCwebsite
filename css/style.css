@@ -14,6 +14,13 @@
     z-index: 99;
 }
 
+.heading-container {
+    transition: transform 0.2s;
+}
+
+.heading-container:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+}
 
 /*** Spinner ***/
 #spinner {
