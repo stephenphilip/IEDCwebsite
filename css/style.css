@@ -14,13 +14,6 @@
     z-index: 99;
 }
 
-.heading-container {
-    transition: transform 0.2s;
-}
-
-.heading-container:hover {
-    transform: scale(1.1); /* Increase the size on hover */
-}
 
 /*** Spinner ***/
 #spinner {
@@ -253,9 +246,10 @@
 }
 
 
-/*** Donate ***/
-.donate {
-    background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8));
+/*** Stats ***/
+.stats {
+    background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)), url(../img/carousel-1.jpg) center no-repeat;
+    background-size: cover;
 }
 
 
@@ -461,3 +455,58 @@
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
 }
+
+.accordion{
+    margin-left: 5%;
+    width: 90%;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+/* Styling for the image inside the modal body */
+@media (min-width: 768px) {
+    .modal-body img {
+        margin-top: 25px;
+    }
+}
+
+/* Styling for the image margin on phone (smaller screens) */
+@media (max-width: 767px) {
+    .modal-body img {
+        margin-top: 0; /* Remove the top margin for phone */
+        margin-bottom: 10%;
+    }
+}
+
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styling for the text inside the modal body */
+.modal-body p {
+    font-size: 16px;
+}
+
+/* Styling for the "Register Now" button inside the modal body */
+.modal-body .btn-primary {
+    margin-top: 10px;
+}
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+
+  }
