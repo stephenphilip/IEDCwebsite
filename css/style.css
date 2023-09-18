@@ -4,6 +4,7 @@
     --secondary: #FFF0E6;
     --light: #F8F8F9;
     --dark: #001D23;
+    --black: #0c0b0b;
 }
 
 .back-to-top {
@@ -248,7 +249,7 @@
 
 /*** Stats ***/
 .stats {
-    background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)), url(../img/carousel-1.jpg) center no-repeat;
+    background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)), url(../img/carousel-1.JPG) center no-repeat;
     background-size: cover;
 }
 
@@ -397,7 +398,10 @@
 }
 
 
-/*** Footer ***/
+/*** Footer 
+.footer{
+    background-color: var(--dark);
+}***/
 
 .footer .btn.btn-link {
     display: block;
